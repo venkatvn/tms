@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Asset Requests" max_length="40" name="x_18927_tms_maintenance_asset_requests" type="collection">
+        <element label="Asset" max_length="32" name="asset" reference="x_18927_tms_maintenance_assets" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Request" max_length="32" name="request" reference="x_18927_tms_maintenance_requests" type="reference"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="asset"/>
+        </index>
+    </element>
+</database>

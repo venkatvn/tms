@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Requests" max_length="40" name="x_18927_tms_maintenance_requests" type="collection">
+        <element label="Actual End Time" max_length="40" name="actual_end_time" type="glide_date_time"/>
+        <element label="Actual Start TIme" max_length="40" name="actual_start_time" type="glide_date_time"/>
+        <element label="Assets Available" max_length="40" name="assets_available" type="boolean"/>
+        <element label="Ending Location" max_length="32" name="ending_location" reference="x_18927_tms_maintenance_locations" type="reference"/>
+        <element label="Starting Location" max_length="32" name="location" reference="x_18927_tms_maintenance_locations" type="reference"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Planned End Time" max_length="40" name="planned_end_time" type="glide_date_time"/>
+        <element label="Planned Start Time" max_length="40" name="planned_start_time" type="glide_date_time"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="New" sequence="1" value="1"/>
+                <element label="Qualified" sequence="2" value="2"/>
+                <element label="Closed" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="ending_location"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="requestor"/>
+        </index>
+    </element>
+</database>

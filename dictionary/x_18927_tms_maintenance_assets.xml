@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Assets" max_length="40" name="x_18927_tms_maintenance_assets" type="collection">
+        <element label="Current Location" max_length="40" name="current_location" reference="x_18927_tms_maintenance_locations" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Available" sequence="1" value="1"/>
+                <element label="Booked" sequence="2" value="2"/>
+                <element label="Unavailable" sequence="3" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

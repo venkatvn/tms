@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Locations" max_length="40" name="x_18927_tms_maintenance_locations" type="collection">
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Rank" max_length="40" name="rank" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Station" sequence="1" value="1"/>
+                <element label="Power Source" sequence="2" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

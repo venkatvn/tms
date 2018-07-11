@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Asset Models" max_length="40" name="x_18927_tms_maintenance_asset_models" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

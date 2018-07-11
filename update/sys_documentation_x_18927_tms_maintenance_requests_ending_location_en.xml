@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ending_location" label="Ending Location" language="en" table="x_18927_tms_maintenance_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ending_location</element>
+            <help/>
+            <hint/>
+            <label>Ending Location</label>
+            <language>en</language>
+            <name>x_18927_tms_maintenance_requests</name>
+            <plural>Ending Locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-11 21:15:20</sys_created_on>
+            <sys_id>d2c4dc34379313008a2e03a973990e63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ending Location</sys_name>
+            <sys_package display_value="TMS" source="x_18927_tms">246dad40379313008a2e03a973990ed0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TMS">246dad40379313008a2e03a973990ed0</sys_scope>
+            <sys_update_name>sys_documentation_x_18927_tms_maintenance_requests_ending_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-11 21:15:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
